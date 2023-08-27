@@ -146,3 +146,41 @@ ul li a {
     font-weight: bolder;
     font-size: 30px;
 }
+
+.ad {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 100px;
+}
+
+.ad-container {
+    display: flex;
+    padding: 50px 100px;
+    background-color: #3882F6;
+    border: hidden;
+    border-radius: 8px;
+    flex: 0 1 auto;
+    width: 800px;
+    justify-content: space-between;
+}
+
+.ad-container .ad-main-text {
+    font-weight: 900;
+    font-size: 20px;
+    color: #E5E7EB;
+}
+
+.ad-container .ad-subtext {
+    color: #e5e7ebce;
+}
+
+.ad-container .ad-button {
+    background-color: #3882F6;
+    border: 3px #E5E7EB solid;
+    color: #E5E7EB;
+    font-size: 18px;
+    padding: 7px 30px;
+    font-weight: 700;
+    border-radius: 8px;
+}
