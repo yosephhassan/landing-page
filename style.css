@@ -184,3 +184,13 @@ ul li a {
     font-weight: 700;
     border-radius: 8px;
 }
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 35px;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    margin-top: auto;
+}
